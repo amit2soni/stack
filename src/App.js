@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
       <Header/>
         <Routes>
-          <Route exact path ="/" element={<Stack/>}/>
+          <Route exact path ="/"  element={<Stack/>}/>
         </Routes>
       </BrowserRouter>
     </div>

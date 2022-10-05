@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./css/index.css"
+
 function Sidebar() {
   return (
     <div className="sidebar">
       <div className='sidebar-container'>
         <div className='sidebar-options'>
         <div className='sidebar-option'>
-          <i class="bi bi-question"></i><Link className='tag'>QUESTIONS</Link>
+          <i class="bi bi-question"></i><Link to="/" className='tag'>QUESTIONS</Link>
         </div>
         <div className='sidebar-option'>
         <i class="bi bi-bag"></i><span><Link className='tag'>JOBS</Link></span>

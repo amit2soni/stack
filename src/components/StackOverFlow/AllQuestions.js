@@ -18,19 +18,19 @@ function AllQuestions(props) {
                  <a href={props.link}> {props.link}</a>
               </div>
               <div style={{display:"flex"}}>
-                  <span className='question-tags'>react</span>
-                  <span className='question-tags'>ant</span>
-                  <span className='question-tags'>frontend</span>
+                  <span className='question-tags'>{props.tags[0]}</span>
+                  <span className='question-tags'>{props.tags[1]}</span>
+                  <span className='question-tags'>{props.tags[2]}</span>
               </div>
               <div className='author'>
-                  <p>modified 1 week ago amit2soni</p>
+                  <p>modified 1 week ago {props.owner}</p>
               </div>
            </div>
          </div>
          <div className='all-questions-right'>
            <div className='all-options'>
                <div className='all-option'>
-                   <p>0</p><span>votes</span>
+                   <p>{props.vote}</p><span>votes</span>
                </div>
                <div className='all-option'>
                    <p>{props.ans}</p><span>answers</span>

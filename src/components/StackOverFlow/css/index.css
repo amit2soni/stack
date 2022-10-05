@@ -130,6 +130,7 @@ a:hover{
     padding-top: 20px;
     padding-left: 0px;
     border-bottom: 1px solid #eee;
+   
 }
 
 .all-questions-container{
@@ -137,11 +138,13 @@ a:hover{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    
 }
 
 .all-questions-right{
     display: flex;
     margin-right: 30px;
+   
 }
 
 .all-options{
@@ -150,6 +153,7 @@ a:hover{
     align-items: center;
     color: rgba(0, 0, 0, 0.7);
     font-size: small;
+    
 }
 
 .all-option{
@@ -207,4 +211,23 @@ a:hover{
     margin-left: 5px;
     font-size: small;
     color: grey;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+}
+
+.footer >img{
+    width: 150px;
+    object-fit: contain;
+    padding: 0;
+    margin-left: 250px;
+}
+
+.footer >h3{
+    font-size: medium;
+    margin-left: 250px;
 }
